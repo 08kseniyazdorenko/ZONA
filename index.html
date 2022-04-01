@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="top-bar top-bar--active">
+        <div class="wrapper">
+            <div class="header-inner-block">
+
+                <div>
+                    <h1 class="header__title">Зона</h1>
+                    <p class="header__description">Начните диалог с&nbsp;заключенным, готовым&nbsp;вам&nbsp;открыться</p>
+                </div>
+                
+                
+                <p class="header__time">осталось<br>10 месяцев</p>
+
+                <button class="hide-header-btn" type="button">
+                    <svg viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-block">
+            <div class="wrapper">
+                <div class="main-block__image">
+                    <picture>
+                        <source media="(min-width: 1440px)" srcset="img/first-floor.png">
+                        <source media="(min-width: 1024px)" srcset="img/first-floor-1366.png">
+                        <source media="(min-width: 768px)" srcset="img/first-floor-768.png">
+                        <img src="img/first-floor-375.png" alt="План помещения">
+                    </picture>
+
+                    <!-- Circles -->
+                    <div class="circle-container circle-container--question" data-circle-item="1" data-name="Саша" data-age="54" data-state="229">
+                        <div class="circle-content">
+                            <div class="message message-mob-1">
+                                <p class="message__text">Подъём в обеих моих колониях был в 5:30</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="2" data-name="Вася" data-age="44" data-state="227">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--question" data-circle-item="3" data-name="Иван" data-age="65" data-state="324">
+                        <div class="circle-content">
+                            <div class="message message-mob-2">
+                                <p class="message__text">Там было хуже: давали кости с перловкой, разведённые водой</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--dialog" data-circle-item="4" data-name="Петр" data-age="45" data-state="214">
+                        <div class="circle-content">
+                            <div class="message message-mob-1" data-answer="употребление алкоголя или наркотиков, неповиновение сотрудникам администрации">
+                                <p class="message__text" data-question="Что является злостным нарушением?">Что является злостным нарушением?</p>
+                                <textarea placeholder="Ответ"></textarea>
+                                <p class="message__text message__text--answer hide">употребление алкоголя или наркотиков, неповиновение сотрудникам администрации</p>
+                                <button class="answer-btn"type="button">Ответить</button>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="5" data-name="Карл" data-age="87" data-state="46">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="6" data-name="Миша" data-age="66" data-state="462">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="7" data-name="Юра" data-age="45" data-state="234">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="8" data-name="Яша" data-age="67" data-state="134">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="9" data-name="Валера" data-age="89" data-state="124">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--dialog" data-name="Алекс" data-circle-item="10" data-age="45" data-state="124">
+                        <div class="circle-content">
+                            <div class="message message-mob-2" data-answer="Это можно сделать в ПТУ, где учат, например, на электрика или сантехника">
+                                <p class="message__text" data-question="Какое образование можно получить?">Какое образование можно получить?</p>
+                                <textarea placeholder="Ответ"></textarea>
+                                <p class="message__text message__text--answer hide">Это можно сделать в ПТУ, где учат, например, на электрика или сантехника</p>
+                                <button class="answer-btn"type="button">Ответить</button>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--question" data-name="Костя" data-circle-item="11" data-age="43" data-state="547">
+                        <div class="circle-content">
+                            <div class="message message-mob-3">
+                                <p class="message__text">Если в твоём деле указано, что ты работаешь, это повышает вероятность получить УДО</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--dialog" data-name="Виктор" data-circle-item="12" data-age="34" data-state="653">
+                        <div class="circle-content">
+                            <div class="message message-mob-3" data-answer="Ставка в размере МРОТа — 11 тысяч, то есть мы получали половину — 5 тысяч">
+                                <p class="message__text" data-question="Сколько платят за работу?">Сколько платят за работу?</p>
+                               <textarea placeholder="Ответ"></textarea>
+                                <p class="message__text message__text--answer hide">Ставка в размере МРОТа — 11 тысяч, то есть мы получали половину — 5 тысяч</p>
+                                <button class="answer-btn"type="button">Ответить</button>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="13" data-name="Всеволод" data-age="32" data-state="524">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="14"  data-name="Толя" data-age="54" data-state="444">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="15" data-name="Андрей" data-age="53" data-state="321">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="16" data-name="Карлос" data-age="43" data-state="356">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--question" data-name="Джон" data-circle-item="17" data-age="46" data-state="673">
+                        <div class="circle-content">
+                            <div class="message message-mob-4">
+                                <p class="message__text">Частенько после работы нужно было территорию чистить, снег расчищать</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="18" data-name="Сев" data-age="76" data-state="235">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="19" data-name="Хуан" data-age="66" data-state="256">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--question" data-name="Питер" data-circle-item="20" data-age="77" data-state="235">
+                        <div class="circle-content">
+                            <div class="message message-mob-5">
+                                <p class="message__text">Живет таджик тут, и ему никто передачки не делает, ну я за тысячу покупаю у него лимит</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container" data-circle-item="21" data-age="87" data-name="Даня" data-state="567">
+                        <button class="circle" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--dialog" data-circle-item="22" data-name="Томас" data-age="64" data-state="356">
+                        <div class="circle-content">
+                            <div class="message message-mob-4" data-answer="Положено в день 30 г макарон, 30 г сахара, 0,1 г лаврового листа и 1 г чая">
+                                <p class="message__text" data-question="Какие минимальные нормы питания?">Какие минимальные нормы питания?</p>
+                               <textarea placeholder="Ответ"></textarea>
+                                <p class="message__text message__text--answer hide">Положено в день 30 г макарон, 30 г сахара, 0,1 г лаврового листа и 1 г чая</p>
+                                <button class="answer-btn"type="button">Ответить</button>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <div class="circle-container circle-container--question" data-circle-item="23" data-name="Габриель" data-age="49" data-state="345">
+                        <div class="circle-content">
+                            <div class="message message-mob-6">
+                                <p class="message__text">Как-то зуб заболел, иду к врачу запломбировать, а он предлагает вырвать</p>
+                                <button class="message__close-btn" type="button">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.2663 18.0948L27.7042 30.5327L30.5327 27.7042L18.0948 15.2663L30.5327 2.82843L27.7042 0L15.2663 12.4379L2.82843 0L0 2.82843L12.4379 15.2663L0 27.7042L2.82843 30.5327L15.2663 18.0948Z" fill="#3D9688"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="circle pulse" type="button"></button>
+                    </div>
+                    <!-- ^Circles^ -->
+                    <div class="triangle-container" data-triangle-item="1">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="2">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="3">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="4">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="5">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="6">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="triangle-container" data-triangle-item="7">
+                        <button class="triangle" type="button">
+                            <svg width="62" height="53" viewBox="0 0 62 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31 0L61.3109 52.5H0.689112L31 0Z" fill="#D60026"/>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Show -->
+
+                    <button class="show-header-btn" type="button">
+                        <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="13" width="31" height="4" fill="#3D9688"/>
+                            <rect y="26" width="31" height="4" fill="#3D9688"/>
+                            <rect width="31" height="4" fill="#3D9688"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-inner-block">
+                <div class="footer-image">
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/logo.png">
+                        <img src="img/logo-mob.png">
+                    </picture>
+                </div>
+                <p>осталось 3 года 4 месяца</p>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="js/script.js"></script>
+    <script src="js/header.js"></script>
+</body>
+</html>
